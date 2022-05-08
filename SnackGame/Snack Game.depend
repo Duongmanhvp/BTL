@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1652014518 source:d:\c++\snack game\main.cpp
+	"BaseInit.h"
+	"LoadTexture.h"
+	"SnakeMove.h"
+	"Target.h"
+
+1652000645 source:d:\c++\snack game\loadtexture.cpp
+	"LoadTexture.h"
+
+1652000957 d:\c++\snack game\loadtexture.h
+	"BaseInit.h"
+
+1652009623 d:\c++\snack game\baseinit.h
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+
+1652014625 d:\c++\snack game\snakemove.h
+	"BaseInit.h"
+
+1652008946 source:d:\c++\snack game\baseinit.cpp
+	"BaseInit.h"
+
+1652014235 source:d:\c++\snack game\snakemove.cpp
+	"SnakeMove.h"
+
+1652009623 source:d:\c++\snack game\target.cpp
+	"Target.h"
+
+1652008818 d:\c++\snack game\target.h
+	"BaseInit.h"
+
