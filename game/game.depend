@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1652175768 source:c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\baseinit.cpp
+	"BaseInit.h"
+
+1652170617 c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\baseinit.h
+	<SDL.h>
+	<SDL_image.h>
+	<bits/stdc++.h>
+	<SDL_ttf.h>
+
+1652178262 source:c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\loadtexture.cpp
+	"LoadTexture.h"
+
+1652178263 c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\loadtexture.h
+	"BaseInit.h"
+
+1652179315 source:c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\main.cpp
+	"BaseInit.h"
+	"LoadTexture.h"
+	"SnakeMove.h"
+	"Target.h"
+	"Menu.h"
+
+1652176596 c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\snakemove.h
+	"BaseInit.h"
+
+1652161360 c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\target.h
+	"BaseInit.h"
+
+1652174798 source:c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\target.cpp
+	"Target.h"
+
+1652176819 source:c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\snakemove.cpp
+	"SnakeMove.h"
+
+1652178179 c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\menu.h
+	"BaseInit.h"
+	"LoadTexture.h"
+
+1652179315 source:c:\users\admin\onedrive\máy tính\gamecuabo\ltnc-btl-main\btl\game\menu.cpp
+	"Menu.h"
+
