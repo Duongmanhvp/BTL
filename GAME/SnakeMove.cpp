@@ -88,6 +88,7 @@ void SnakeClass::handleMove(SDL_Event &e)
                     direction = RIGHT;
                }
           }
+
      }
      SDL_Delay(0);
 }
@@ -124,13 +125,13 @@ void SnakeClass::snakeMove(SDL_Rect &point)
      if (CheckVaCham(snakeHead, point) == true)
      {
           // chuyển point ra chỗ khác
-          point.x = (rand() % (SCREEN_WIDTH / 20)) * 20;
-          point.y = (rand() % (SCREEN_HEIGHT / 20)) * 20;
+          point.x = 20 + rand() % 38 * 20;
+          point.y = 20 + rand() % 38 * 20;
           snakeBodyLength++;
           snakeBody[snakeBodyLength - 1].x = snakeBody[snakeBodyLength - 2].x;
           snakeBody[snakeBodyLength - 1].y = snakeBody[snakeBodyLength - 2].y;
      }
-     SDL_Delay(50);
+     SDL_Delay(60);
 }
 
 bool SnakeClass::gameOver()
@@ -138,7 +139,7 @@ bool SnakeClass::gameOver()
      // Nếu đâm vào đuôi
      for (int i = 0; i < snakeBodyLength; i++)
      {
-          if (CheckVaCham(snakeHead, snakeBody[i]) == true)
+          if (snakeHead.x == snakeBody[i].x && snakeHead.y == snakeBody[i].y)
           {
                return true;
           }
