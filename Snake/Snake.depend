@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1653196715 source:c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\baseinit.cpp
+	"BaseInit.h"
+
+1653197065 c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\baseinit.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<bits/stdc++.h>
+
+1653197461 source:c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\loadtexture.cpp
+	"LoadTexture.h"
+
+1653194302 c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\loadtexture.h
+	"BaseInit.h"
+
+1653194302 source:c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\main.cpp
+	"BaseInit.h"
+	"LoadTexture.h"
+	"SnakeMove.h"
+	"Target.h"
+	"Menu.h"
+	"QuitMenu.h"
+
+1653092765 c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\snakemove.h
+	"BaseInit.h"
+
+1653092765 c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\target.h
+	"BaseInit.h"
+
+1653092765 c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\menu.h
+	"BaseInit.h"
+	"LoadTexture.h"
+
+1653092765 c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\quitmenu.h
+	"BaseInit.h"
+	"LoadTexture.h"
+
+1653193240 source:c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\menu.cpp
+	"Menu.h"
+
+1653195313 source:c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\quitmenu.cpp
+	"QuitMenu.h"
+
+1653197065 source:c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\snakemove.cpp
+	"SnakeMove.h"
+
+1653190677 source:c:\users\admin\onedrive\máy tính\new folder\ltnc-btl-main\btl\snake\target.cpp
+	"Target.h"
+
